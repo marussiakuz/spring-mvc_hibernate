@@ -110,15 +110,7 @@
         $.ajax({
             url: `http://localhost:8080/users/${id}`,
             type: 'DELETE',
-            success: function reload() {
-                $.ajax({
-                    url: `http://localhost:8080/users`,
-                    type: 'GET',
-                    success: function reload() {
-                        location.reload();
-                    }
-                });
-            }
+            success: function reload(){location.reload();}
         });
     }
 
