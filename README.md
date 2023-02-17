@@ -1,3 +1,7 @@
-     CRUD-app using Spring MVC + Hibernate:
+### CRUD-app using Spring MVC + Hibernate
 
-![Feb-17-2023 13-19-35.gif](..%2FDownloads%2FFeb-17-2023%2013-19-35.gif)
+<hr>
+     
+#### Short view:
+
+<img src="https://user-images.githubusercontent.com/96682553/219625101-563820e8-4390-46d2-892f-e7f284500fa1.gif" width="600">
