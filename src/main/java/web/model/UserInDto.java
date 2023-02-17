@@ -4,7 +4,7 @@ public class UserInDto {
     private String firstName;
     private String lastName;
     private String email;
-    private long birthday;
+    private Long birthday;
     private Role role;
 
     public UserInDto() {
