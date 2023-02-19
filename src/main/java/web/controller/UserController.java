@@ -31,13 +31,13 @@ public class UserController {
     }
 
     @PostMapping
-    public String createUsers(@RequestBody UserInDto user) {
+    public String create(@RequestBody UserInDto user) {
         userService.create(user);
         return "users";
     }
 
-    @PostMapping("/{id}")
-    public String updatePlayer(@PathVariable long id, @RequestBody UserInDto user) {
+    @PatchMapping("/{id}")
+    public String update(@PathVariable long id, @RequestBody UserInDto user) {
         userService.update(id, user);
         return "users";
     }
